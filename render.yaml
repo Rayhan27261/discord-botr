@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: discord-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: TOKEN
+        sync: false
