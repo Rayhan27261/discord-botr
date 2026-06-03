@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 const { Client, GatewayIntentBits, PermissionsBitField } = require('discord.js');
 
 const client = new Client({
